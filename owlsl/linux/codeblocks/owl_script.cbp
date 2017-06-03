@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="owl_script" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Static Debug">
+				<Option output="debug/owl_script" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../owl/utils/linux/debug" />
+				</Linker>
+			</Target>
+			<Target title="Static Release">
+				<Option output="debug/owl_script" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../../../owl/utils/linux/relese" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-DOWL_SCRIPT_EXPORTS" />
+			<Add directory="../../../" />
+		</Compiler>
+		<Unit filename="../../_export.h" />
+		<Unit filename="../../cwl.cpp" />
+		<Unit filename="../../cwl.h" />
+		<Unit filename="../../cwl_parse.cpp" />
+		<Unit filename="../../error.h" />
+		<Unit filename="../../heap.cpp" />
+		<Unit filename="../../heap.h" />
+		<Unit filename="../../sco.cpp" />
+		<Unit filename="../../sco.h" />
+		<Unit filename="../../sco_interface.cpp" />
+		<Unit filename="../../sco_parse.cpp" />
+		<Unit filename="../../tokenizer.cpp" />
+		<Unit filename="../../tokenizer.h" />
+		<Unit filename="../../types/base.h" />
+		<Unit filename="../../types/boolean.cpp" />
+		<Unit filename="../../types/boolean.h" />
+		<Unit filename="../../types/list.cpp" />
+		<Unit filename="../../types/list.h" />
+		<Unit filename="../../types/number.cpp" />
+		<Unit filename="../../types/number.h" />
+		<Unit filename="../../types/object.h" />
+		<Unit filename="../../types/reference.cpp" />
+		<Unit filename="../../types/reference.h" />
+		<Unit filename="../../types/text.cpp" />
+		<Unit filename="../../types/text.h" />
+		<Unit filename="../../types/types.h" />
+		<Unit filename="../../utils/hfile.h" />
+		<Unit filename="../../utils/index.h" />
+		<Unit filename="../../utils/linux/memory.h" />
+		<Unit filename="../../utils/linux/path.cpp" />
+		<Unit filename="../../utils/map.h" />
+		<Unit filename="../../utils/mfile.cpp" />
+		<Unit filename="../../utils/mfile.h" />
+		<Unit filename="../../utils/path.h" />
+		<Unit filename="../../utils/point.h" />
+		<Unit filename="../../utils/rectangle.h" />
+		<Unit filename="../../utils/size.h" />
+		<Unit filename="../../utils/text.cpp" />
+		<Unit filename="../../utils/text.h" />
+		<Unit filename="../../utils/wfile.cpp" />
+		<Unit filename="../../utils/wfile.h" />
+		<Unit filename="../../utils/xml/document.cpp" />
+		<Unit filename="../../utils/xml/document.h" />
+		<Unit filename="../../utils/xml/node.cpp" />
+		<Unit filename="../../utils/xml/node.h" />
+		<Unit filename="../../vm.cpp" />
+		<Unit filename="../../vm.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1418380206 source:/mnt/sda1/temp/damian/projects/owlsl/test/script_hello_world/main.cpp
+	<owlsl/cwl.h>
+
+1418379905 /mnt/sda1/temp/damian/projects/owlsl//owlsl/cwl.h
+	<deque>
+	"_export.h"
+	"sco.h"
+	"tokenizer.h"
+	"types/types.h"
+
+1425947243 /mnt/sda1/temp/damian/projects/owlsl//owlsl/_export.h
+	<iostream>
+	<owlsl/utils/win32/memory.h>
+	<owlsl/utils/linux/memory.h>
+	<owlsl/utils/win32/pstdint.h>
+	<stdint.h>
+
+1418381111 /mnt/sda1/temp/damian/projects/owlsl//owlsl/utils/win32/memory.h
+	"pstdint.h"
+
+1378200055 /mnt/sda1/temp/damian/projects/owlsl//owlsl/utils/win32/pstdint.h
+	<stddef.h>
+	<limits.h>
+	<signal.h>
+	<stdint.h>
+	<wchar.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1425947482 /mnt/sda1/temp/damian/projects/owlsl//owlsl/utils/linux/memory.h
+
+1418379904 /mnt/sda1/temp/damian/projects/owlsl//owlsl/sco.h
+	<deque>
+	"_export.h"
+	"tokenizer.h"
+	"vm.h"
+
+1418379816 /mnt/sda1/temp/damian/projects/owlsl//owlsl/tokenizer.h
+	"_export.h"
+	<set>
+	<vector>
+	<owlsl/utils/map.h>
+	<owlsl/utils/wfile.h>
+	"error.h"
+
+1418379794 /mnt/sda1/temp/damian/projects/owlsl//owlsl/utils/map.h
+	<iostream>
+	<assert.h>
+	<map>
+
+1418379794 /mnt/sda1/temp/damian/projects/owlsl//owlsl/utils/wfile.h
+	"mfile.h"
+
+1418379794 /mnt/sda1/temp/damian/projects/owlsl//owlsl/utils/mfile.h
+	"../utils/text.h"
+	<vector>
+
+1418379794 /mnt/sda1/temp/damian/projects/owlsl//owlsl/utils/text.h
+	"../_export.h"
+	<string>
+	<vector>
+
+1418379848 /mnt/sda1/temp/damian/projects/owlsl//owlsl/error.h
+	"_export.h"
+	<owlsl/utils/path.h>
+
+1418379794 /mnt/sda1/temp/damian/projects/owlsl//owlsl/utils/path.h
+	<owlsl/utils/text.h>
+
+1418379904 /mnt/sda1/temp/damian/projects/owlsl//owlsl/vm.h
+	"_export.h"
+	<deque>
+	<owlsl/utils/index.h>
+	"heap.h"
+
+1418379794 /mnt/sda1/temp/damian/projects/owlsl//owlsl/utils/index.h
+	<vector>
+	<owlsl/utils/map.h>
+	<owlsl/utils/text.h>
+
+1418379904 /mnt/sda1/temp/damian/projects/owlsl//owlsl/heap.h
+	"_export.h"
+	<vector>
+
+1396284417 /mnt/sda1/temp/damian/projects/owlsl//owlsl/types/types.h
+	"base.h"
+	"number.h"
+	"boolean.h"
+	"text.h"
+	"list.h"
+	"reference.h"
+
+1418380036 /mnt/sda1/temp/damian/projects/owlsl//owlsl/types/base.h
+	"../vm.h"
+
+1418380036 /mnt/sda1/temp/damian/projects/owlsl//owlsl/types/number.h
+	"object.h"
+
+1418380036 /mnt/sda1/temp/damian/projects/owlsl//owlsl/types/object.h
+	"../_export.h"
+
+1418380036 /mnt/sda1/temp/damian/projects/owlsl//owlsl/types/boolean.h
+	"object.h"
+
+1418380036 /mnt/sda1/temp/damian/projects/owlsl//owlsl/types/text.h
+	"../_export.h"
+
+1418380036 /mnt/sda1/temp/damian/projects/owlsl//owlsl/types/list.h
+	"object.h"
+	<owlsl/utils/text.h>
+	<deque>
+
+1418380036 /mnt/sda1/temp/damian/projects/owlsl//owlsl/types/reference.h
+	"object.h"
+	<owlsl/utils/text.h>
+	<deque>
+
