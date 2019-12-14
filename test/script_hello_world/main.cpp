@@ -99,16 +99,10 @@ int main()
 			std::cout << std::endl;
 
 			// Allocate and push an instance of the script class 'test'
-			cwl.script.alloc("test");
-			
-			// Allocate, push and get an instance of the internal type 'text'. owlsl::variable is a container to handle it from c++
-			owlsl::heap_obj<owlsl::text> var = cwl.host.alloc<owlsl::text>("text");
-			
-			// Set the value of this variable
-			var.instance->set("Hello World!");
-			
+			cwl.script.alloc("Program");
+						
 			// Call method 'init' from script class 'test'
-			cwl.script.call("test", "init(text)");
+			cwl.script.call("Program", "Main()");
 
 			// Deallocate everything
 			cwl.sco.vm.heap.terminate();
