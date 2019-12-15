@@ -44,3 +44,5 @@ test/script_hello_world/win32/vs2008/Debug/hello_world.pdb
 test/script_hello_world/win32/vs2008/Debug/main.obj
 test/script_hello_world/win32/vs2008/script_hello_world.ncb
 test/script_hello_world/win32/vs2008/hello_world.vcproj.neo.damian.user
+owlsl/win32/vs2008/owlsl.vcproj.neo.damian.user
+test/script_hello_world/win32/vs2008/script_hello_world.suo

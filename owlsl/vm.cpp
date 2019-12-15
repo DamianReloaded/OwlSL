@@ -112,7 +112,7 @@ void vm::pushs()
 {
 	int pos = code[++cursor];
 	int spos = func_stack.back()+pos;
-	spos = spos<0?0:spos; // hack cause I don't currently feel like going down this rabbit hole... ^_^	
+	spos = spos<0?(stack.size()-1)+spos:spos; // ATTENTION TO THIS!!! IT USED TO BREAK.
 	push(stack[spos]);
 }
 
