@@ -309,7 +309,7 @@ void vm::scallmethod (const int& type, const int& method, const bool& static_cal
 	
 	cursor = table[type].smethod[method]; // set the cursor to the start of the method's code
 	run(cursor);
-	pop(table[type].sparameters[method]+ ( (static_call)?0:1 ) ); // pop parameters + this
+    pop(table[type].sparameters[method] ); // pop parameters (don't pop this) // 	pop(table[type].sparameters[method]+ ( (static_call)?0:1 ) ); // pop parameters + this
 	// push return value if any
 	if (rtx>-1)
 	{
